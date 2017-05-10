@@ -1,5 +1,23 @@
-import { Meteor } from 'meteor/meteor';
+console.log(Books.findOne());
 
-Meteor.startup(() => {
-  // code to run on server at startup
+Meteor.methods({
+    getbook: function () {
+        return Books.find().fetch();
+    },
+
+})
+
+Meteor.publish('book', function (id) {
+    return Books.find();
 });
+Meteor.publish('author', function (id) {
+    return Author.find();
+});
+Meteor.publish('category', function (id) {
+    return Category.find();
+});
+Meteor.publish('image', function (id) {
+    return Image.find();
+});
+
+

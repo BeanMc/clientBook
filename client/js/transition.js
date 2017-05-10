@@ -3,7 +3,6 @@
  */
 Meteor.startup(function () {
         (function( $, window, document, Math, undefined ) {
-
         /*
          * Feature tests and global variables
          */
@@ -535,4 +534,4 @@ Meteor.startup(function () {
         };
 
     })( jQuery, window, document, Math );
-})
+});
