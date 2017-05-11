@@ -13,9 +13,10 @@ Meteor.publish('book', function (id) {
 Meteor.publish('author', function (id) {
     return Author.find();
 });
-Meteor.publish('category', function (id) {
+Meteor.publish('category', function (idd) {
     return Category.find();
 });
+
 Meteor.publish('image', function (id) {
     return Image.find();
 });
