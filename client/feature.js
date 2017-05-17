@@ -1,18 +1,21 @@
 /**
- * Created by CongNguyen on 5/10/2017.
+ * Created by CongNguyen on 5/17/2017.
  */
 
-Meteor.startup(function () {
-    if (Meteor.isClient) {
-        Session.set('shopp', []);
+
+//add-to-basket
+
+Template.feature.events({
+    'click .add-to-basket':function (e, t) {
+        console.log(($(e.target)).attr('data-isbn'));
+        var b=Session.get('shopp');
+        b.push(($(e.target)).attr('data-isbn'));
+        Session.set('shopp',b);
+        console.log(Session.get('shopp'));
     }
 });
-Template.homePage.helpers({
-    bestRead: function () {
-        return Books.find().fetch().map(function (item) {
-            return item;
-        });
-    },
+
+Template.feature.helpers({
     active: function (index) {
         if (index == 0) {
             return "active";
@@ -23,7 +26,9 @@ Template.homePage.helpers({
             return Author.findOne(id).name;
         }
     },
-
+    images: function (id) {
+        return Image.find(); // Where Images is an FS.Collection instance
+    },
     category: function (id) {
 
         return Category.find().fetch();
@@ -51,7 +56,13 @@ Template.homePage.helpers({
             return b;
         }
     },
-
-
+    compa: function (index) {
+        if (index < 6) {
+            return true;
+        }
+    },
+    fomat: function (item) {
+        // return item.format('{Dow}  {dd}/{MM}/{yy}');
+        return item;
+    }
 });
-

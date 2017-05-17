@@ -21,7 +21,9 @@
                             {{#each bestRead}}
                                 <div class=" item   {{active @index}}">
                                     <div class="col-sm-3">
-                                        <img src="/cfs/files/image/{{this.Image}}"  class="show-book">
+                                        <a href="/details/{{_id}}"> <img src="/cfs/files/image/{{this.Image}}"
+                                                                         class="show-book">
+                                        </a>
                                         <div class="carousel-caption container">
                                             <!--<h3>{{this.name}}</h3>-->
                                             <!--<p>!!!!</p>-->
@@ -29,7 +31,8 @@
                                     </div>
                                     <div class="col-sm-9">
                                         <div class="row first-title">
-                                            <h3 class="text-detail">{{this.name}}</h3>
+                                            <a href="/details/{{_id}}"><h3 class="text-detail">{{this.name}}</h3>
+                                            </a>
                                         </div>
                                         <div class="row detail-author">
                                             <ul>
@@ -86,1785 +89,1193 @@
 
             </div>
         </div>
-        <div class="feature3">
-            <div class="row header">
-                <h3>Children's Bestselling Books</h3>
-            </div>
-            <div class="row">
-                <div id="myCarousel2" class="carousel slide slide-future2" data-ride="carousel2">
-                    <!--Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class=" item  active ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" item   ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control next" href="#myCarousel2" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control next" href="#myCarousel2" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        <div class="feature3">
-            <div class="row header">
-                <h3> Highlights</h3>
-            </div>
-            <div class="row">
-                <div id="myCarousel3" class="carousel slide slide-future2" data-ride="carousel3">
-                    <!--Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class=" item  active ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" item   ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control next" href="#myCarousel3" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control next" href="#myCarousel3" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        <div class="feature3">
-            <div class="row header">
-                <h3> Coming soon </h3>
-            </div>
-            <div class="row">
-                <div id="myCarousel4" class="carousel slide slide-future2" data-ride="carousel4">
-                    <!--Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class=" item  active ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" item   ">
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-item col-sm-2">
-                                <div class="item-img">
-                                    <a href="#">
-                                        <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
-                                             alt="Good Night Stories for Rebel Girls">
-                                    </a>
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="title    medium">
-                                        <a href="#">
-                                            <p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>
-                                        </a>
-                                    </h4>
-
-                                    <p class="author">
-                                        <a href="#">Elena Favilli</a>
-                                    </p>
-                                    <div class="rating-wrap">
-                                        <a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">
-                                            <div class="stars">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <p class="published">02 Mar 2017</p>
-                                    <div class="price-wrap">
-                                        <p class="price">
-                                            US$7.73
-                                            &nbsp;<span class="rrp">US$19.75</span>
-                                        </p>
-                                        <p class="price-save">
-                                            Save US$12.02</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="item-actions">
-                                    <div class="btn-wrap">
-                                        <a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"
-                                           class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"
-                                           data-isbn="9780141986005" data-currency="USD" data-price="24.22"
-                                           data-show-related="true">Add to basket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control next" href="#myCarousel4" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control next" href="#myCarousel4" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-
-            </div>
-        </div>
+
+        <!--<div class="feature3">-->
+        <!--<div class="row header">-->
+        <!--<h3> Highlights</h3>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div id="myCarousel3" class="carousel slide slide-future2" data-ride="carousel3">-->
+        <!--&lt;!&ndash;Wrapper for slides &ndash;&gt;-->
+        <!--<div class="carousel-inner ">-->
+        <!--<div class=" item  active ">-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class=" item   ">-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Left and right controls &ndash;&gt;-->
+        <!--<a class="left carousel-control next" href="#myCarousel3" data-slide="prev">-->
+        <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+        <!--<span class="sr-only">Previous</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control next" href="#myCarousel3" data-slide="next">-->
+        <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+        <!--<span class="sr-only">Next</span>-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="feature3">-->
+        <!--<div class="row header">-->
+        <!--<h3> Coming soon </h3>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div id="myCarousel4" class="carousel slide slide-future2" data-ride="carousel4">-->
+        <!--&lt;!&ndash;Wrapper for slides &ndash;&gt;-->
+        <!--<div class="carousel-inner ">-->
+        <!--<div class=" item  active ">-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class=" item   ">-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book-item col-sm-2">-->
+        <!--<div class="item-img">-->
+        <!--<a href="#">-->
+        <!--<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"-->
+        <!--alt="Good Night Stories for Rebel Girls">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="item-info">-->
+        <!--<h4 class="title    medium">-->
+        <!--<a href="#">-->
+        <!--<p>Good Night Stories for Rebel Girls sd Gos for Rebel Girls sd </p><br>-->
+        <!--</a>-->
+        <!--</h4>-->
+
+        <!--<p class="author">-->
+        <!--<a href="#">Elena Favilli</a>-->
+        <!--</p>-->
+        <!--<div class="rating-wrap">-->
+        <!--<a href="/Good-Night-Stories-for-Rebel-Girls-Elena-Favilli/9780141986005">-->
+        <!--<div class="stars">-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star" aria-hidden="true"></i>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<p class="published">02 Mar 2017</p>-->
+        <!--<div class="price-wrap">-->
+        <!--<p class="price">-->
+        <!--US$7.73-->
+        <!--&nbsp;<span class="rrp">US$19.75</span>-->
+        <!--</p>-->
+        <!--<p class="price-save">-->
+        <!--Save US$12.02</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item-actions">-->
+        <!--<div class="btn-wrap">-->
+        <!--<a rel="nofollow" href="/basket/addisbn/isbn13/9780141986005"-->
+        <!--class="btn btn-sm btn-primary add-to-basket" data-ref="carousel"-->
+        <!--data-isbn="9780141986005" data-currency="USD" data-price="24.22"-->
+        <!--data-show-related="true">Add to basket</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Left and right controls &ndash;&gt;-->
+        <!--<a class="left carousel-control next" href="#myCarousel4" data-slide="prev">-->
+        <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+        <!--<span class="sr-only">Previous</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control next" href="#myCarousel4" data-slide="next">-->
+        <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+        <!--<span class="sr-only">Next</span>-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!--</div>-->
+        <!--</div>-->
 
 
         <div class="row" style="height: 20px;background: #d9d9d9"></div>

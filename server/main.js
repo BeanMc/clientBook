@@ -1,4 +1,3 @@
-console.log(Books.findOne());
 
 Meteor.methods({
     getbook: function () {
@@ -13,9 +12,10 @@ Meteor.publish('book', function (id) {
 Meteor.publish('author', function (id) {
     return Author.find();
 });
-Meteor.publish('category', function (idd) {
+Meteor.publish('category', function (isdd) {
     return Category.find();
 });
+
 
 Meteor.publish('image', function (id) {
     return Image.find();

@@ -5,8 +5,8 @@
                 <div class="col-sm-4 top-nav">
                     <ul>
 
-                        <li><a href="#"><i class="fa fa-home " aria-hidden="true"></i>Home</a></li>
-                        <li><a href="#"><i class="fa fa-envelope " aria-hidden="true"></i>Contact Us</a></li>
+                        <li><a href="/"><i class="fa fa-home " aria-hidden="true"></i>Home</a></li>
+                        <li><a href="#contact"><i class="fa fa-envelope " aria-hidden="true"></i>Contact Us</a></li>
                         <li><a href="#"><i class="fa fa-question-circle-o" aria-hidden="true"></i>Help</a></li>
                         <!--<li>Contact</li>-->
 
@@ -34,7 +34,7 @@
 
                 <div class="col-sm-2 ">
                     <div class="logo col-sm-offset-1">
-                        <a href="#">
+                        <a href="/">
                             <img src="/image/logo.png" alt="hello">
 
                         </a>
@@ -65,20 +65,22 @@
                         <li><a href="#">Highlights</a></li>
                     </ul>
                 </div>
+                {{#with shopping}}
                 <div class="nav-right col-sm-4">
                     <div class="col-sm-4 text-shopping" style="color: #0f0f0f">$ US Dollar <i class="fa fa-chevron-down"
                                                                                               aria-hidden="true"></i></div>
                     <div class="col-sm-8 shopping">
                         <div class="col-sm-6 text-shopping">
-                            <p>US $22.23 </p>
+                            <p>US$  {{price}} </p>
                         </div>
                         <div class="col-sm-5 text-shopping">
-                            2 items <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            {{count}} items <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                         </div>
                         <div class="col-sm-1 ">
                         </div>
                     </div>
                 </div>
+                {{/with}}
             </div>
         </div>
     </div>

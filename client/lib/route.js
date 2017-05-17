@@ -4,7 +4,7 @@
 
 FlowRouter.route('/',{
    action:function (params, query) {
-       BlazeLayout.render('layout', {nav:'nav',main: 'homePage', footer: 'footer'});
+       BlazeLayout.render('layout', {nav:'nav',main: 'homePage',feature:'feature', footer: 'footer'});
    },
     subscriptions: function(params, queryParams) {
         this.register('book', Meteor.subscribe('book',""));
@@ -16,7 +16,7 @@ FlowRouter.route('/',{
 
 FlowRouter.route('/details/:id',{
     action:function (params, query) {
-        BlazeLayout.render('layout', {nav:'nav',main: 'details', footer: 'footer'});
+        BlazeLayout.render('layout', {nav:'nav',main: 'details',feature:'feature', footer: 'footer'});
     },
     subscriptions: function(params, queryParams) {
         this.register('book', Meteor.subscribe('book',""));
